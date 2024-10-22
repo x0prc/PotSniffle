@@ -13,7 +13,27 @@ A high-end honeypot simulation application built with Flutter, designed to detec
 - [Flutter](https://flutter.dev/docs/get-started/install) installed on your machine.
 
 ## Installation/Running
-`flutter run`  
+### Configure Cowrie
+`sudo apt-get install git python-virtualenv libssl-dev build-essential libpython-dev python2.7-minimal authbind` <br>
+`sudo adduser --disabled-password cowrie`<br>
+`sudo su - cowrie`<br>
+`git clone http://github.com/micheloosterhof/cowrie`<br>
+`cd cowrie`<br>
+`virtualenv cowrie-env` <br>
+`source cowrie-env/bin/activate` <br>
+`pip install --upgrade pip` <br>
+`pip install --upgrade -r requirements.txt` <br>
+
+- Redirect traffic from port 22 to Cowrie's listening port (2222): <br>
+`sudo iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222`
+
+### Setup Dionaea
+`git clone https://github.com/DinoTools/dionaea` <br>
+`mkdir build` <br>
+`cd build` <br>
+`cmake -DCMAKE_INSTALL_PREFIX:PATH=/opt/dionaea ..` <br>
+`make` <br>
+`sudo make install` <br>
 
 ## Usage
 - Launch the application.
