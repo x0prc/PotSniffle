@@ -36,7 +36,7 @@ A high-end honeypot simulation application built with Flutter, designed to detec
 `sudo make install` <br>
 
 ## Usage
-- Launch the application.
+- `flutter run`
 - Use the dashboard to start or stop the honeypot service.
 - Monitor logged interactions through the interface.
 - View detailed logs of interactions by clicking on "View Interactions".
