@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>B3C7EEF8-6D96-4FBF-9241-DF292DD72E2D</key>
+		<key>0E1BCB3D-4319-4CDE-8D1E-F59E005E7403</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B3C7EEF8-6D96-4FBF-9241-DF292DD72E2D.xcactivitylog</string>
+			<string>0E1BCB3D-4319-4CDE-8D1E-F59E005E7403.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,13 +40,13 @@
 			<key>signature</key>
 			<string>Building workspace Runner with scheme Runner and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>751542735.05160105</real>
+			<real>751698469.10532701</real>
 			<key>timeStoppedRecording</key>
-			<real>751542760.50116396</real>
+			<real>751698499.27481997</real>
 			<key>title</key>
 			<string>Building workspace Runner with scheme Runner and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>B3C7EEF8-6D96-4FBF-9241-DF292DD72E2D</string>
+			<string>0E1BCB3D-4319-4CDE-8D1E-F59E005E7403</string>
 		</dict>
 	</dict>
 </dict>
